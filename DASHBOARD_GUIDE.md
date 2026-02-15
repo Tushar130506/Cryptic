@@ -1,4 +1,4 @@
-# Quant Block Dashboard Guide
+# Cryptic Dashboard Guide
 
 This guide explains every section in the Streamlit dashboard and how to use it.
 

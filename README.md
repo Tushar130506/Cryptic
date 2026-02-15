@@ -1,4 +1,4 @@
-# Quant Block
+# Cryptic
 
 > **Statistically-validated cryptocurrency trading algorithm with confirmed edge (IC=0.72, p<0.02)**
 
@@ -13,7 +13,7 @@ Author: Tushar Sharma
 
 ## Overview
 
-**Quant Block** is a machine learning-based trading system that predicts Bitcoin price movements 22 days into the future using ensemble methods (Random Forest + XGBoost). The system emphasizes statistical rigor, risk management, and reproducibility.
+**Cryptic** is a machine learning-based trading system that predicts Bitcoin price movements 22 days into the future using ensemble methods (Random Forest + XGBoost). The system emphasizes statistical rigor, risk management, and reproducibility.
 
 ### What Makes It Different
 
@@ -105,8 +105,8 @@ results/stress_test_results.csv.
 
 ```bash
 # Clone repository
-git clone https://github.com/Tushar130506/quant-block.git
-cd quant-block
+git clone https://github.com/Tushar130506/Cryptic.git
+cd Cryptic
 
 # Install dependencies
 pip install -r requirements.txt

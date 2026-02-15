@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Common issues and fixes for Quant Block.
+Common issues and fixes for Cryptic.
 
 ## 1) Streamlit command not found
 

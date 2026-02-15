@@ -1,4 +1,4 @@
-QUANT BLOCK - DEPLOYMENT GUIDE (v3.0)
+CRYPTIC - DEPLOYMENT GUIDE (v3.0)
 Generated: Feb 15, 2026
 
 Author: Tushar Sharma
@@ -6,7 +6,7 @@ License: MIT (free for anyone to use)
 
 Overview
 --------
-Quant Block is a machine learning trading research system for BTC-USD using
+Cryptic is a machine learning trading research system for BTC-USD using
 walk-forward validation, realistic transaction costs, and IC testing.
 
 Current Status

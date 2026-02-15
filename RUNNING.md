@@ -1,4 +1,4 @@
-# Running Quant Block
+# Running Cryptic
 
 This guide shows how to run the backtest and the Streamlit dashboard.
 

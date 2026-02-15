@@ -1,4 +1,4 @@
-# Contributing to Quant Block
+# Contributing to Cryptic
 
 Thanks for your interest in contributing. This project focuses on research-grade backtesting and statistical validity.
 
