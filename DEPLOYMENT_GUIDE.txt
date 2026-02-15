@@ -1,0 +1,65 @@
+QUANT BLOCK - DEPLOYMENT GUIDE (v3.0)
+Generated: Feb 15, 2026
+
+Author: Tushar Sharma
+License: MIT (free for anyone to use)
+
+Overview
+--------
+Quant Block is a machine learning trading research system for BTC-USD using
+walk-forward validation, realistic transaction costs, and IC testing.
+
+Current Status
+--------------
+- Strategy Return: +69.27%
+- Sharpe Ratio: +8.07
+- Max Drawdown: -24.53%
+- IC: +0.7201 (p=0.0125) - statistically significant
+- Test Periods: 11
+
+Key Architecture
+----------------
+1) Data: Yahoo Finance (BTC-USD OHLCV)
+2) Features: 11 momentum/mean-reversion/volatility features
+3) Model: RF + XGB ensemble (equal weights)
+4) Backtest: Walk-forward with retrain frequency
+5) Risk: Position sizing, leverage caps, transaction costs, stop loss
+
+Production Readiness
+--------------------
+PASS:
+- No lookahead bias
+- No data leakage
+- Statistical signal (IC positive, p < 0.05)
+- Risk controls in place
+
+CAUTION:
+- Limited test periods (11). More samples improve confidence.
+- Single asset (BTC). Generalization unproven.
+
+Deployment Checklist
+--------------------
+1) Run backtest: python main.py
+2) Validate IC: must be positive and p < 0.05
+3) Verify drawdown: must be > -30%
+4) Review dashboard: results/dashboard.png
+5) Run tests: pytest -q
+
+Runbook
+-------
+- Start dashboard:
+  streamlit run ui/streamlit_app.py
+- Tune parameters and re-run backtest
+- Save presets for reproducibility (ui/presets/presets.json)
+
+If You Trade Live
+-----------------
+- Add real-time data feed and broker integration
+- Add alerting and monitoring
+- Use strict risk limits and position caps
+- Paper trade before deployment
+
+Disclaimer
+----------
+This project is for research and education only. Past performance does not
+predict future results.

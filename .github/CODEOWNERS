@@ -1,0 +1,8 @@
+# Default owners
+* @Tushar130506
+
+# Python core
+*.py @Tushar130506
+
+# Documentation
+*.md @Tushar130506
